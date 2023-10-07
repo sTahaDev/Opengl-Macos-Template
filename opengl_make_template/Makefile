@@ -3,7 +3,7 @@ BUILD_DIR = ./bin
 C_FILES = ./src/*.cpp
 
 APP_DEFINES:=
-APP_INCLUDES := -I./include/GLFW -framework Opengl -framework Cocoa -framework IOKit
+APP_INCLUDES := -I./include -framework Opengl -framework Cocoa -framework IOKit
 APP_LINKERS := -L./lib -lglfw3
 
 build: 
